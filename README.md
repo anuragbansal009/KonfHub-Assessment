@@ -1,3 +1,33 @@
+# KonfHub Frontend Assessment
+
+### Prerequisites
+
+- Node.js and npm installed
+
+## Setup
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/anuragbansal009/KonfHub-Assessment.git
+    cd KonfHub-Assessment
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the frontend:
+    ```bash
+    npm run dev
+    ```
+
+### Deployment
+
+[https://anuragbansal009.github.io/KonfHub-Assessment/](https://anuragbansal009.github.io/KonfHub-Assessment/)
+
+
+### Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
