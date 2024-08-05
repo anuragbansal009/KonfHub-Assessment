@@ -21,6 +21,8 @@
     npm run dev
     ```
 
+4. The website will be accessible at `localhost:3000/KonfHub-Assessment/`
+
 ### Deployment
 
 [https://anuragbansal009.github.io/KonfHub-Assessment/](https://anuragbansal009.github.io/KonfHub-Assessment/)
