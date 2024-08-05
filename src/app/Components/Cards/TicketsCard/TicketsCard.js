@@ -7,7 +7,9 @@ function TicketsCard({ ticketPlanDetails }) {
         <div className='ticket_card' key={ticket.id}>
           <p className='ticket_plan_type'>{ticket.ticket_plan_type}</p>
           <p className='ticket_description'>{ticket.ticket_description}</p>
-          <a className='ticket_venue flex flex-row' href={"https://www.google.com/maps/search/?api=1&query=" + ticket.ticket_venue.split(' ').join('+')}><img className='self-start mt-1.5' width={14} height={14} src="https://img.icons8.com/ios-filled/50/228BE6/marker.png" alt="marker" /> {ticket.ticket_venue}</a>
+          <a className='ticket_venue flex flex-row' href={"https://www.google.com/maps/search/?api=1&query=" + ticket.ticket_venue.split(' ').join('+')}><span class="mt-1 material-symbols-outlined">
+            location_on
+          </span> {ticket.ticket_venue}</a>
           <p className='ticket_additional'>{ticket.ticket_additional_heading}</p>
           <strong className='ticket_timestamp'>{ticket.ticket_timestamp}</strong>
           <div className='ticket_plan'>

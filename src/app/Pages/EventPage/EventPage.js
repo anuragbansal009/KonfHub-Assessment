@@ -46,20 +46,24 @@ const EventPage = () => {
             <div className='grid grid-cols-2 w-full py-[12px]'>
               <div className=''>
                 <div className='flex align-center flex-row'>
-                  <div className='mx-2 self-center'>
-                    <img width="18" height="18" src="https://img.icons8.com/ios-glyphs/30/video-call.png" alt="video-call" />
+                  <div className='mx-1 self-center'>
+                    <span class="material-symbols-outlined">
+                      videocam
+                    </span>
                   </div>
-                  <div className='mx-2'>
+                  <div className='mx-1'>
                     Online
                   </div>
                 </div>
               </div>
               <div className=''>
                 <div className='flex align-center flex-row'>
-                  <div className='mx-2 self-center'>
-                    <img width="18" height="18" src="https://img.icons8.com/fluency-systems-filled/48/ticket.png" alt="ticket" />
+                  <div className='mx-1 self-center'>
+                    <span class="material-symbols-outlined">
+                      confirmation_number
+                    </span>
                   </div>
-                  <div className='mx-2'>
+                  <div className='mx-1'>
                     Paid
                   </div>
                 </div>
@@ -72,7 +76,11 @@ const EventPage = () => {
           <div className='event_btn'>
 
             <button>Buy Now</button>
-            <a href="#!" className="official-website">Official Website <img width="22" height="20" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/external-share-interface-kiranshastry-lineal-kiranshastry-1.png" alt="external-share-interface-kiranshastry-lineal-kiranshastry-1" /></a>
+            <a href="#!" className="official-website">Official Website
+              <span class="material-symbols-outlined">
+                open_in_new
+              </span>
+            </a>
           </div>
           <div className="hosted-by">
             <h3>HOSTED BY</h3>

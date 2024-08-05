@@ -4,7 +4,9 @@ function Header({ eventData }) {
   return (
     <div className="header-align">
       <img src={eventData.navbar_icon} alt="KonfHub Logo" height={50} width={100} />
-      <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/user--v1.png" alt="user--v1" />
+      <span class="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}>
+        person
+      </span>
     </div>
   )
 }
